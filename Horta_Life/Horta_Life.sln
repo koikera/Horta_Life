@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horta_Life", "Horta_Life\Horta_Life.csproj", "{C7D0779B-025B-4301-8F03-1F20F57DE27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D0779B-025B-4301-8F03-1F20F57DE27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D0779B-025B-4301-8F03-1F20F57DE27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D0779B-025B-4301-8F03-1F20F57DE27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D0779B-025B-4301-8F03-1F20F57DE27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7C40307-E752-43B3-969E-CFBBD5DBDB7D}
+	EndGlobalSection
+EndGlobal

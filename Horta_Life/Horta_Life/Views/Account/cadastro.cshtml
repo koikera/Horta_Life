@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "cadastro";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<div class="container">
+    <div class="box">
+        <img class="logoCadastro" src="/images/Modelo3.png" alt="">
+        <h1 style="margin: 0;">Registrar</h1>
+        <form action="Registration" method="post">
+            <div class="Input">
+                <input class="inputs" type="text" name="Nome" placeholder="Nome Completo">
+                <input class="inputs" type="text" name="Usuario" placeholder="Usuário">
+            </div>
+            <div class="Input">
+                <input class="inputs" type="date" name="DtNascimento" placeholder="Data de Nascimento">
+                <input class="inputs" type="number" name="CEP" placeholder="CEP" min="1" maxlength="15">
+            </div>
+            <div class="Input">
+                <input class="inputs" type="text" name="CPF" required placeholder="CPF" maxlength="9" min="1">
+                <input class="inputs" type="tel" name="Telefone" required placeholder="Número de Telefone" maxlength="16">
+            </div>
+            <div class="Input">
+                <input class="inputs" type="text" name="Email" placeholder="Email">
+                <input class="inputs" type="password" name="Senha" placeholder="Senha">
+            </div>
+            <button type="submit" class="Entrar"><strong>Registrar</strong></button>
+        </form>
+    </div>
+</div>
